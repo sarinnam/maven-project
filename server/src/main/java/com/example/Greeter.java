@@ -12,7 +12,7 @@ public class Greeter {
    * This is a constructor.
    */
   public Greeter() {
-
+   // ok
   }
 
     /**
@@ -24,4 +24,3 @@ public class Greeter {
     return String.format("Hello, %s!", someone);
   }
 }
-
