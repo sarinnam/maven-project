@@ -17,10 +17,11 @@ public class Greeter {
 
     /**
    * This is a greet methods.
-   * @param someone
-   * @return someone hello
+   * @param someone the name of the personne
+   * @return someone string
    */
   public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
+
